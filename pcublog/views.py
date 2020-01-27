@@ -3,13 +3,13 @@ from django.utils import timezone
 
 
 def home_page(request):
-	return render(request, 'groway/home_page.html', {})
+	return render(request, 'pcublog/home_page.html', {})
 
 def quienes_somos(request):
-	return render(request, 'groway/quienes_somos.html', {})
+	return render(request, 'pcublog/quienes_somos.html', {})
 
 def servicios(request):
-	return render(request, 'groway/servicios.html', {})
+	return render(request, 'pcublog/servicios.html', {})
 
 def contacto(request):
-	return render(request, 'groway/contacto.html', {})
+	return render(request, 'pcublog/contacto.html', {})
