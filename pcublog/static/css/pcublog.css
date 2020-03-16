@@ -1,0 +1,317 @@
+body {
+	margin: 0;
+	background-color: #F1EEFF;
+}
+
+/* CSS para la navbar PCU */
+
+.navbar {
+	height: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #1F2727;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+ul.nav {
+	margin-top: 30px;
+	padding-right: 120px;
+}
+
+.navbar-brand {
+	padding: 0px;
+	margin: 0px;
+}
+.navbar-brand img {
+	position: relative;
+	bottom: 10px;
+}
+
+.icon-bar {
+	background-color: white;
+}
+
+.links:hover {
+	text-decoration: none;
+	font-size: 16px;
+	color: white;
+	background-color: rgba(255, 255, 255, 0.25);
+}
+
+.links:active, .links:focus, .links:visited {
+	text-decoration: none;
+}
+
+.links.active {
+	text-decoration: none;
+	border-radius: 0;
+	color: white;
+	border-bottom: solid white;
+}
+
+
+.links {
+	text-decoration: none;
+	font-size: 16px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-right: 10px;
+	border-radius: 40px;
+	color: white;
+}
+
+.submenu {
+	margin-right: 450px;
+}
+
+.content {
+	padding-left: 90px;
+	padding-right: 90px;
+}
+
+/* CSS para servicios.html */
+
+.encabezado_servicios {
+	text-align: center;
+	position: relative;
+	left: 20%;
+	width: 700px;
+	margin-top: 160px;
+}
+
+.encabezado_servicios p, .encabezado_catalog_acero p {
+	font-size: 19px;
+}
+.encabezado_servicios h1, .encabezado_catalog_acero h1 {
+	font-size: 45px;
+}
+
+.lista_servicios {
+	margin-top: 100px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.lista_servicios h3 {
+	font-size: 30px;
+}
+.lista_servicios p {
+	font-size: 16px;
+}
+.descrip_serv {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.img_serv img {
+	border-radius: 10px;
+}
+.servicios_fila_dos, .servicios_fila_tres, .servicios_fila_cuatro, .servicios_fila_cinco {
+	margin-top: 40px;
+}
+.pie_pagina {
+	margin-top: 100px;
+}
+.derechos_resev {
+	float: right;
+	margin-right: 150px;
+}
+.redes_sociales {
+	float: left;
+	margin-left: 200px;
+}
+img.logo_insta, img.logo_tweet {
+	margin-left: 30px;
+}
+.derechos_resev p {
+	font-size: 13px;
+}
+
+/* CSS para templates de CATALOGO */
+
+.encabezado_catalog_acero, .encabezado_catalog_plastica, .encabezado_quienes_somos {
+	text-align: center;
+	position: relative;
+	left: 17%;
+	width: 800px;
+	margin-top: 160px;
+}
+
+.encabezado_catalog_papel_carton {
+	text-align: center;
+	position: relative;
+	left: 17%;
+	width: 800px;
+	margin-top: 160px;
+}
+
+.encabezado_catalog_acero p, .encabezado_catalog_plastica p, .encabezado_catalog_papel_carton p, .encabezado_quienes_somos p {
+	font-size: 19px;
+}
+.encabezado_catalog_acero h1, .encabezado_catalog_plastica h1, .encabezado_catalog_papel_carton h1, .encabezado_quienes_somos h1 {
+	font-size: 45px;
+}
+
+.catalogo_acero, .catalogo_plastica, .catalogo_papel_carton {
+	margin-top: 100px;
+}
+
+/* CSS para quienes_somos.html */
+
+.quienes_somos_texto_img {
+	margin-top: 60px;
+	padding-left: 90px;
+	padding-right: 20px;
+}
+.imagen_quienes_somos img {
+	border-radius: 10px;
+}
+.descripcion_quienes_somos p, .quienes_somos_historia p {
+	font-size: 17px;
+	margin-top: 10px;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+/* CSS para contacto.html */
+
+.titulo_contacto {
+	margin-top: 160px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center;
+}
+.titulo_contacto h1 {
+	font-size: 45px;
+}
+.titulo_contacto p {
+	font-size: 20px;
+}
+.info_contacto {
+	margin-top: 60px;
+	margin-left: 200px;
+	margin-bottom: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.info_contacto p {
+	font-size: 16px;
+}
+.info_direccion_horario {
+	margin-top: 60px;
+	margin-left: 200px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+/* CSS para home_page.html */
+
+.mostrador_servicios {
+	margin-top: 100px;
+	width: 100%;
+}
+.content_home {
+	padding: 0px;
+}
+.mensaje_imagen {
+	padding-bottom: 60px;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.mensaje_imagen h3 {
+	font-size: 40px;
+}
+.mensaje_imagen a {
+	font-size: 20px;
+	text-decoration: none;
+	color: #0880BF;
+}
+.mensaje_imagen a:hover {
+	font-size: 20px;
+	text-decoration: none;
+	color: #054364;
+}
+.catalogo_industrias {
+	margin-bottom: 50px;
+}
+.titulo_catalogo_home {
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 90px;
+}
+.caja_industrias_1 {
+	width: 950px;
+	margin-top: 50px;
+	margin-left: 250px;
+}
+.caja_industrias_2 {
+	width: 700px;
+	margin-top: 22px;
+	margin-left: 450px;
+}
+.mini_caja_ind a {
+	text-decoration: none;
+	color: grey;
+}
+.mini_caja_ind a:hover {
+	text-decoration: none;
+	color: grey;
+}
+.mini_caja_ind {
+	display: inline;
+	text-align: center;
+	padding: 10px;
+	border: solid grey 2px;
+	border-radius: 10px;
+	margin-top: 2px;
+	margin-left: 2px;
+	background-color: #EFEFEF;
+}
+.mini_caja_ind:hover {
+	background-color: #CFCFCF;
+}
+.quines_somos_home {
+	margin-top: 70px;
+	margin-left: 90px;
+	margin-right: 90px;
+	padding-bottom: 100px;
+}
+.titulo_quienes_somos_home {
+	text-align: center;
+	margin-bottom: 50px;
+	margin-left: 200px;
+	width: 800px;
+}
+.titulo_quienes_somos_home p {
+	font-size: 20px;
+}
+.descripcion_quienes_somos_home {
+	width: 1000px;
+	margin-left: 90px;
+}
+.descripcion_quienes_somos_home img {
+	float: left;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+.descripcion_quienes_somos_home p {
+	font-size: 17px;
+}
+.link_quienes_somos {
+	text-align: center;
+	margin-top: 70px;
+}
+.link_quienes_somos a {
+	text-decoration: none;
+	font-size: 17px;
+	color: #0880BF;
+}
+.link_quienes_somos a:hover {
+	text-decoration: none;
+	font-size: 17px;
+	color: #054364;
+}
+.pie_pagina {
+	margin-top: 60px;
+}
