@@ -1,0 +1,199 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Candal|Sawarabi+Gothic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Anton|Muli:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{% static 'css/pcusite.css' %}">
+	<link rel="icon" type="image/png" href="{% static 'img/growayicon.ico' %}">
+	<title>Productos de Caucho Universal - Soluciones Sin Límites</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+  		$(function() {
+  			var links = $(".links");
+  			var serv = $(".serv");
+  			var content = $(".content");
+  			links.click(function() {
+  				links.removeClass("active");
+  				$(this).addClass("active");
+  			});
+  			content.click(function() {
+  				links.removeClass("active");
+  				serv.addClass("active");
+  			});
+  		});
+  	</script>
+</head>
+<body>
+	<header class="block">
+		<nav class="navbar navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle menu_toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="{% url 'home_page' %}" class="navbar-brand">
+						<img src="{% static 'img/logouniversal.png' %}"alt="PCU" width="300" height="100">
+					</a>
+				</div>
+				<div class="links_webpage collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<a class="links serv active" href="{% url 'servicios' %}">Servicios</a>
+						<a class="links dropdown dropdown-toggle" data-toggle="dropdown" href="{% url 'catalogo' %}">Catálogo</a>
+							<ul class="submenu dropdown-menu">
+								<li><a class="sub_link" href="{% url 'acero' %}">Industria del Acero</a></li>
+								<li><a class="sub_link" href="{% url 'plastica' %}">Industria Plástica</a></li>
+								<li><a class="sub_link" href="{% url 'papelcarton' %}">Industria de Papel y Cartón</a></li>
+								<li><a class="sub_link" href="{% url 'textil' %}">Industria Textil</a></li>
+								<li><a class="sub_link" href="{% url 'cemento' %}">Industria del Cemento</a></li>
+								<li><a class="sub_link" href="{% url 'maderera' %}">Industria Maderera</a></li>
+								<li><a class="sub_link" href="{% url 'minera' %}">Industria Minera</a></li>
+								<li><a class="sub_link" href="{% url 'agricola' %}">Industria Agrícola</a></li>
+								<li><a class="sub_link" href="{% url 'especiales' %}">Piezas y Trabajos Especiales</a></li>
+							</ul>
+						<a class="links" href="{% url 'quienes_somos' %}">Quienes Somos</a>
+						<a class="links" href="{% url 'contacto' %}">Contacto</a>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="content">
+		<div class="encabezado_servicios">
+			<div class="titulo_servicios">
+				<h1>Nuestros Servicios</h1>
+				<p>Contamos con una gran variedad de servicios para su negocio. Fabricamos rodillos y piezas especiales de caucho natural y sintético; Silicona, Neopreno, EPDM, Ebonita, Nitrilo, SBN, Vyton, entre otros.</p>
+			</div>
+		</div>
+		<div class="lista_servicios">
+			<div class="servicios_fila_uno row">
+				<div class="serv_recti_rod col-sm-6">
+					<div class="serv_content row">
+						<div class="descrip_serv col-sm-6">
+							<h3>Rectificación de Rodillos de Caucho</h3>
+							<p>Ofrecemos el servicio de rectificación de rodillos por medio de mecánizado superficial con piedra abraciba dandole un acabado superficial óptimo.</p>
+						</div>
+						<div class="img_serv col-sm-6">
+							<img src="{% static 'img/SERV_RECTIFICADO.jpg' %}"alt="PCU" width="250" height="200">
+						</div>
+					</div>
+				</div>
+				<div class="serv_fabri_rod col-sm-6">
+					<div class="serv_content row">
+						<div class="descrip_serv col-sm-6">
+							<h3>Fabricación de Rodillos de Caucho</h3>
+							<p>Fabricamos rodillos de caucho para todo tipo de aplicacines industriales. El tipo de caucho, dureza, recistencia, acabado superficial y color son establecidos según las exigencias del cliente.</p>
+						</div>
+						<div class="img_serv col-sm-6">
+							<img src="{% static 'img/SERV_FAB_ROD.jpg' %}"alt="PCU" width="250" height="200">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="servicios_fila_dos row">
+				<div class="serv_fabri_alma_metal col-sm-6">
+					<div class="serv_content row">
+						<div class="descrip_serv col-sm-6">
+							<h3>Fabricación de Núcleos Metálicos</h3>
+							<p>Fabricamos núcleos metálicos para ruedas y rodillos en acero de diferentes tipos según las especificaciones del cliente.</p>
+						</div>
+						<div class="img_serv col-sm-6">
+							<img src="{% static 'img/SERV_FAB_ALMAS_METAL.jpg' %}"alt="PCU" width="250" height="200">
+						</div>
+					</div>
+				</div>
+				<div class="serv_fabri_mang col-sm-6">
+					<div class="serv_content row">
+						<div class="descrip_serv col-sm-6">
+							<h3>Fabricación de Mangueras de Caucho</h3>
+							<p>Fabricamos mangueras especiales para uso industrial, automotor, para flujo de químicos, para paso de aire, juntas de expansión y mangueras de codos flexibles sin límite de longitud y diámetro.</p>
+						</div>
+						<div class="img_serv col-sm-6">
+							<img src="{% static 'img/SERV_FAV_MAGUERAS.jpg' %}"alt="PCU" width="250" height="200">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="servicios_fila_tres row">
+				<div class="serv_fabri_perfil col-sm-6">
+					<div class="serv_content row">
+						<div class="descrip_serv col-sm-6">
+							<h3>Fabricación de Perfiles de Caucho</h3>
+							<p>Ofrecemos el servicio de extrusión de perfiles continuos para aplicaciones industriales, aplicaciones para construcción, para la industria automotriz y para el sellado de tapas en caliente y en frio.</p>
+						</div>
+						<div class="img_serv col-sm-6">
+							<img src="{% static 'img/PERFILES_DE_CAUCHO.jpg' %}"alt="PCU" width="250" height="200">
+						</div>
+					</div>
+				</div>
+				<div class="serv_fabri_apoyo_puente col-sm-6">
+					<div class="serv_content row">
+						<div class="descrip_serv col-sm-6">
+							<h3>Fabricación de Apoyos para Puente</h3>
+							<p>Fabricamos cauchos de apoyo para puente con o sin refuerzos metálicos y en cualquier tamaño según lo solicite el cliente.</p>
+						</div>
+						<div class="img_serv col-sm-6">
+							<img src="{% static 'img/APOYO_PUENTE.jpg' %}"alt="PCU" width="250" height="200">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="servicios_fila_cuatro row">
+				<div class="serv_fabri_empaques col-sm-6">
+					<div class="serv_content row">
+						<div class="descrip_serv col-sm-6">
+							<h3>Fabricación de Empaques de Caucho</h3>
+							<p>Fabricamos empaques industriales por sistema de moldeado como O'Rings, retenedores para aceite, diafragmas para sistema de aire, etc.</p>
+						</div>
+						<div class="img_serv col-sm-6">
+							<img src="{% static 'img/ORINGS_CAUCHO_EMPAQUES.jpg' %}"alt="PCU" width="250" height="200">
+						</div>
+					</div>
+				</div>
+				<div class="serv_recub_superf col-sm-6">
+					<div class="serv_content row">
+						<div class="descrip_serv col-sm-6">
+							<h3>Recubrimiento de Seperficies con caucho</h3>
+							<p>Ofrecemos el servicio de recubrimiento de superficies planas, recubrimiento superficial externo e interno de tuberías, recubrimiento de piezas industriales como ganchos de grúa y recubrimiento de cubas para decapado.</p>
+						</div>
+						<div class="img_serv col-sm-6">
+							<img src="{% static 'img/RECU_SUPERF.jpg' %}"alt="PCU" width="250" height="200">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="servicios_fila_cinco row">
+				<div class="serv_fabri_mezcla col-sm-6">
+					<div class="serv_content row">
+						<div class="descrip_serv col-sm-6">
+							<h3>Elaboración de Mezclas</h3>
+							<p>Ofrecemos el servicio de elaboración de mezclas finales en caucho Natural, SBR, Neopreno, Nitrilo, EPDM, entre otros. Ademas diseñamos compuestos especiales para aplicaciones más especificas.</p>
+						</div>
+						<div class="img_serv col-sm-6">
+							<img src="{% static 'img/MEZCLAS_DE_CAUCHO.jpg' %}"alt="PCU" width="250" height="200">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="pie_pagina">
+			<div class="redes_sociales">
+				<img class="logo_fb" src="{% static 'img/LOGO_FB.png' %}"alt="PCU" width="20" height="20">
+				<img class="logo_insta" src="{% static 'img/LOGO_INSTA.png' %}"alt="PCU" width="20" height="20">
+				<img class="logo_tweet" src="{% static 'img/LOGO_TWITT.png' %}"alt="PCU" width="20" height="20">
+			</div>
+			<div class="derechos_resev">
+				<p>2020 Productos de Caucho Universal. All rights reserved.</p>
+			</div>
+		</div>
+	</div>
+</body>
