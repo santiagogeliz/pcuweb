@@ -12,7 +12,13 @@ body {
 	background-color: #1F2727;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+.navbar_dos {
+	height: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #EAE6E6;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 ul.nav {
 	margin-top: 30px;
@@ -25,12 +31,24 @@ ul.nav {
 }
 .navbar-brand img {
 	position: relative;
-	bottom: 10px;
+	bottom: 20px;
+	left: 80px;
+}
+
+.navbar-brand-dos img {
+	position: relative;
+	bottom: 20px;
+	left: 80px;
 }
 
 .icon-bar {
 	background-color: white;
 }
+
+.icon-bar-dos {
+	background-color: black;
+}
+
 
 .links:hover {
 	text-decoration: none;
@@ -39,7 +57,18 @@ ul.nav {
 	background-color: rgba(255, 255, 255, 0.25);
 }
 
+.links_dos:hover {
+	text-decoration: none;
+	font-size: 16px;
+	color: #E8E3E3;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
 .links:active, .links:focus, .links:visited {
+	text-decoration: none;
+}
+
+.links_dos:active, .links_dos:focus, .links_dos:visited {
 	text-decoration: none;
 }
 
@@ -48,6 +77,13 @@ ul.nav {
 	border-radius: 0;
 	color: white;
 	border-bottom: solid white;
+}
+
+.links_dos.active {
+	text-decoration: none;
+	border-radius: 0;
+	color: #272525;
+	border-bottom: solid #272525;
 }
 
 
@@ -63,8 +99,20 @@ ul.nav {
 	color: white;
 }
 
+.links_dos {
+	text-decoration: none;
+	font-size: 16px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-right: 10px;
+	border-radius: 40px;
+	color: #272525;
+}
+
 .submenu {
-	margin-right: 450px;
+	margin-right: 360px;
 }
 
 .content {

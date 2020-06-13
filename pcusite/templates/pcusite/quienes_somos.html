@@ -10,13 +10,13 @@
 	<link href="https://fonts.googleapis.com/css?family=Anton|Muli:300,400" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="{% static 'css/pcusite.css' %}">
-	<link rel="icon" type="image/png" href="{% static 'img/growayicon.ico' %}">
+	<link rel="icon" type="image/png" href="{% static 'img/nuevo_mini_logo_pcu_colores.ico' %}">
 	<title>Productos de Caucho Universal - Soluciones Sin Límites</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	<script type="text/javascript">
   		$(function() {
-  			var links = $(".links");
+  			var links = $(".links_dos");
   			var content = $(".content");
   			links.click(function() {
   				links.removeClass("active");
@@ -31,22 +31,22 @@
 </head>
 <body>
 	<header class="block">
-		<nav class="navbar navbar-fixed-top">
+		<nav class="navbar navbar_dos navbar-fixed-top">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle menu_toggle" data-toggle="collapse" data-target="#myNavbar">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
+						<span class="icon-bar icon-bar-dos"></span>
+						<span class="icon-bar icon-bar-dos"></span>
+						<span class="icon-bar icon-bar-dos"></span>
 					</button>
-					<a href="{% url 'home_page' %}" class="navbar-brand">
-						<img src="{% static 'img/logouniversal.png' %}"alt="PCU" width="300" height="100">
+					<a href="{% url 'home_page' %}" class="navbar-brand navbar-brand-dos">
+						<img src="{% static 'img/nuevo_logo_pcu_completo_colores_vinotinto.png' %}"alt="PCU" width="290" height="140">
 					</a>
 				</div>
 				<div class="links_webpage collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">
-						<a class="links" href="{% url 'servicios' %}">Servicios</a>
-						<a class="links dropdown dropdown-toggle" data-toggle="dropdown" href="{% url 'catalogo' %}">Catálogo</a>
+						<a class="links_dos" href="{% url 'servicios' %}">Servicios</a>
+						<a class="links_dos dropdown dropdown-toggle" data-toggle="dropdown" href="{% url 'catalogo' %}">Catálogo</a>
 							<ul class="submenu dropdown-menu">
 								<li><a class="sub_link" href="{% url 'acero' %}">Industria del Acero</a></li>
 								<li><a class="sub_link" href="{% url 'plastica' %}">Industria Plástica</a></li>
@@ -58,8 +58,8 @@
 								<li><a class="sub_link" href="{% url 'agricola' %}">Industria Agrícola</a></li>
 								<li><a class="sub_link" href="{% url 'especiales' %}">Piezas y Trabajos Especiales</a></li>
 							</ul>
-						<a class="links active" href="{% url 'quienes_somos' %}">Quienes Somos</a>
-						<a class="links" href="{% url 'contacto' %}">Contacto</a>
+						<a class="links_dos active" href="{% url 'quienes_somos' %}">Quienes Somos</a>
+						<a class="links_dos" href="{% url 'contacto' %}">Contacto</a>
 					</ul>
 				</div>
 			</div>
