@@ -25,7 +25,7 @@ SECRET_KEY = '(ufk-1b4neni4j30*6)a*-9=h$9s=p2ai5bvoc*+xlhbz)0gf3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'cauchosuniversal.pythonanywhere.com', 'cauchosuniversal.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'cauchosuniversal.pythonanywhere.com', 'wwww.cauchosuniversal.com']
 
 
 # Application definition
