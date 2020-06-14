@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="{% static 'css/pcusite.css' %}">
 	<link rel="icon" type="image/png" href="{% static 'img/nuevo_mini_logo_pcu_colores.ico' %}">
-	<title>Productos de Caucho Universal - Soluciones Sin Límites</title>
+	<title>Cauchos Universal - Productos Industriales de Caucho</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	<script type="text/javascript">
@@ -40,7 +40,7 @@
 						<span class="icon-bar icon-bar-dos"></span>
 					</button>
 					<a href="{% url 'home_page' %}" class="navbar-brand navbar-brand-dos">
-						<img src="{% static 'img/nuevo_logo_pcu_completo_colores_vinotinto.png' %}"alt="PCU" width="290" height="140">
+						<img src="{% static 'img/nuevo_logo_pcu_completo_colores_vinotinto.png' %}"alt="PCU" width="250" height="140">
 					</a>
 				</div>
 				<div class="links_webpage collapse navbar-collapse" id="myNavbar">
@@ -69,12 +69,12 @@
 		<div class="encabezado_quienes_somos">
 			<div class="titulo_quienes_somos">
 				<h1>¿Quiénes Somos?</h1>
-				<p>Ayudamos a las empresas a mantener optima su linea de producción ofreciendoles soluciones en piezas y articulos de caucho.</p>
+				<p>Fabricamos piezas y artículos de caucho para toda industria.</p>
 			</div>
 		</div>
 		<div class="quienes_somos_texto_img row">
 			<div class="imagen_quienes_somos col-sm-5">
-				<img src="{% static 'img/SERV_RECTIFICADO.jpg' %}"alt="PCU" width="500" height="250">
+				<img src="{% static 'img/IMGAGEN_S_M_T_V_UNO.jpg' %}"alt="PCU" width="500" height="300">
 			</div>
 			<div class="descripcion_quienes_somos col-sm-7">
 				<p class="quienes_somos_p1">Cauchos Universal es una empresa fabricante y comercializadora de productos de caucho utilizados en diversos procesos industriales, desde rodillos para bandas transportadoras hasta sellos y empaques para tanques.</p>
@@ -91,15 +91,22 @@
 			<p>Con nuestra experiencia en la industria, nuestros conocimientos cientificos, nuestros equipos tecnológicos y con nuestro personal calificado estamos dispuestos a ganarnos su confianza brindandole soluciones sin límite.</p>
 		</div>
 	</div>
-	<div class="pie_pagina">
+	<footer>
+		<div class="pie_pagina">
 			<div class="redes_sociales">
-				<img class="logo_fb" src="{% static 'img/LOGO_FB.png' %}"alt="PCU" width="20" height="20">
-				<img class="logo_insta" src="{% static 'img/LOGO_INSTA.png' %}"alt="PCU" width="20" height="20">
-				<img class="logo_tweet" src="{% static 'img/LOGO_TWITT.png' %}"alt="PCU" width="20" height="20">
+				<a href="https://www.facebook.com/cauchosuniversalbaq" class="navbar-brand">
+					<img class="logo_fb" src="{% static 'img/LOGO_FB.png' %}"alt="PCU" width="20" height="20">
+				</a>
+				<a href="https://www.instagram.com/cauchosuniversalbaq/" class="navbar-brand">
+					<img class="logo_insta" src="{% static 'img/LOGO_INSTA.png' %}"alt="PCU" width="20" height="20">
+				</a>
+				<a href="https://www.linkedin.com/company/cauchosuniversalbaq/" class="navbar-brand">
+					<img class="logo_linkedin" src="{% static 'img/linkedin.png' %}"alt="PCU" width="20" height="20">
+				</a>
 			</div>
 			<div class="derechos_resev">
-				<p>2020 Productos de Caucho Universal. All rights reserved.</p>
+				<p>2020 Cauchos Universal. All rights reserved.</p>
 			</div>
 		</div>
-	</div>
+	</footer>
 </body>
