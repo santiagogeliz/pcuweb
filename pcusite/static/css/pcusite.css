@@ -556,27 +556,33 @@ img.logo_insta, img.logo_linkedin {
 	.pie_pagina {
 		margin-bottom: 0px;
 		padding-bottom: 0px;
-		margin-top: 100px;
+		margin-top: 50px;
+		width: 400px;
 	}
 	.derechos_resev {
 		float: right;
-		margin-top: 50px;
-		margin-right: 170px;
+		margin-top: 60px;
+		margin-right: 40px;
 		margin-bottom: 0px;
 		padding-bottom: 0px;
 	}
 	.redes_sociales {
 		float: left;
 		margin-top: 75px;
-		margin-left: 100px;
+		margin-left: 10px;
 		margin-bottom: 0px;
 		padding-bottom: 0px;
 	}
+
+	.redes_sociales img {
+		width: 20px;
+		height: 20px;
+	}
 	img.logo_insta, img.logo_linkedin {
-		margin-left: 30px;
+		margin-left: 10px;
 	}
 	.derechos_resev p {
-		font-size: 13px;
+		font-size: 12px;
 	}
 
 
