@@ -74,6 +74,7 @@
 					<li data-target="#myCarousel" data-slide-to="2"></li>
 					<li data-target="#myCarousel" data-slide-to="3"></li>
 					<li data-target="#myCarousel" data-slide-to="4"></li>
+					<li data-target="#myCarousel" data-slide-to="5"></li>
 				</ol>
 				<div class="carousel-inner">
 					<div class="item active">
@@ -160,7 +161,7 @@
 				<div class="mini_caja_ind">
 					<a class="sub_link" href="{% url 'agricola' %}">Industria Agrícola</a>
 				</div>
-				<div class="mini_caja_ind">
+				<div class="mini_caja_ind"
 					<a class="sub_link" href="{% url 'especiales' %}">Piezas y Trabajos Especiales</a>
 				</div>
 			</div>
@@ -173,9 +174,14 @@
 			</div>
 			<div class="quienes_somos_texto_img_home">
 				<div class="descripcion_quienes_somos_home">
-					<p><img src="{% static 'img/IMGAGEN_S_M_T_V_UNO.jpg' %}"alt="PCU" width="500" height="300">
-						Cauchos Universal es una empresa fabricante y comercializadora de productos de caucho utilizados en diversos procesos industriales, desde rodillos para bandas transportadoras hasta sellos y empaques para tanques.<br><br>
-						Somos reconocidos por brindar la mejor calidad a nuestros clientes, manteniendo sus lineas de producción y equipos en optimas condiciones y mejorando continuamente nuestros procesos para ofrecerles productos de alta durabilidad y resistencia.</p>
+					<div class="imagen_quienes_somos col-sm-5">
+						<img src="{% static 'img/IMGAGEN_S_M_T_V_UNO.jpg' %}"alt="PCU" width="500" height="300">
+					</div>
+					<div class="descripcion_quienes_somos col-sm-7">
+						<p class="quienes_somos_p1">Cauchos Universal es una empresa fabricante y comercializadora de productos de caucho utilizados en diversos procesos industriales, desde rodillos para bandas transportadoras hasta sellos y empaques para tanques.</p>
+
+						<p class="quienes_somos_p2">Somos reconocidos por brindar la mejor calidad a nuestros clientes, manteniendo sus lineas de producción y equipos en optimas condiciones y mejorando continuamente nuestros procesos para ofrecerles productos de alta durabilidad y resistencia.</p>
+					</div>
 				</div>
 			</div>
 			<div class="link_quienes_somos">

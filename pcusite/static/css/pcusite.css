@@ -274,6 +274,7 @@ img.logo_insta, img.logo_linkedin {
 .content_home {
 	padding: 0px;
 }
+
 .mensaje_imagen {
 	padding-bottom: 60px;
 	border-radius: 10px;
@@ -347,16 +348,7 @@ img.logo_insta, img.logo_linkedin {
 	font-size: 20px;
 }
 .descripcion_quienes_somos_home {
-	width: 1000px;
-	margin-left: 90px;
-}
-.descripcion_quienes_somos_home img {
-	float: left;
-	margin-right: 10px;
-	border-radius: 10px;
-}
-.descripcion_quienes_somos_home p {
-	font-size: 17px;
+	margin-left: 40px;
 }
 .link_quienes_somos {
 	text-align: center;
@@ -520,14 +512,14 @@ img.logo_insta, img.logo_linkedin {
 	}
 
 	.encabezado_servicios p, .encabezado_catalog_acero p {
-		font-size: 13px;
+		font-size: 14px;
 	}
 	.encabezado_servicios h1, .encabezado_catalog_acero h1 {
 		font-size: 25px;
 	}
 
 	.lista_servicios {
-		margin-top: 100px;
+		margin-top: 60px;
 		padding-left: 40px;
 		padding-right: 20px;
 		width: 320px;
@@ -562,7 +554,7 @@ img.logo_insta, img.logo_linkedin {
 	.derechos_resev {
 		float: right;
 		margin-top: 60px;
-		margin-right: 40px;
+		margin-right: 50px;
 		margin-bottom: 0px;
 		padding-bottom: 0px;
 	}
@@ -584,6 +576,224 @@ img.logo_insta, img.logo_linkedin {
 	.derechos_resev p {
 		font-size: 12px;
 	}
+
+
+	/* Responsive para templates de CATALOGO */
+
+
+
+	.encabezado_catalog_acero, .encabezado_catalog_plastica, .encabezado_quienes_somos {
+		text-align: center;
+		position: relative;
+		left: 5%;
+		width: 300px;
+		margin-top: 100px;
+	}
+
+	.encabezado_catalog_papel_carton {
+		text-align: center;
+		position: relative;
+		left: 5%;
+		width: 300px;
+		margin-top: 100px;
+	}
+
+	.encabezado_catalog_acero p, .encabezado_catalog_plastica p, .encabezado_catalog_papel_carton p, .encabezado_quienes_somos p {
+		font-size: 14px;
+	}
+	.encabezado_catalog_acero h1, .encabezado_catalog_plastica h1, .encabezado_catalog_papel_carton h1, .encabezado_quienes_somos h1 {
+		font-size: 25px;
+	}
+
+	.catalogo_acero, .catalogo_plastica, .catalogo_papel_carton {
+		margin-top: 70px;
+	}
+
+
+	/* Responsive para quienes_somos.html */
+
+
+	.quienes_somos_texto_img {
+		margin-top: 50px;
+		padding-left: 0px;
+		padding-right: 20px;
+	}
+
+	.imagen_quienes_somos img {
+		border-radius: 10px;
+		margin-left: 10px;
+		width: 300px;
+		height: 200px;
+	}
+
+	.descripcion_quienes_somos p, .quienes_somos_historia p {
+		font-size: 13px;
+		margin-top: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+
+	/* Responsive para contacto.html */
+
+	.titulo_contacto {
+		margin-top: 100px;
+		padding-left: 20px;
+		padding-right: 20px;
+		text-align: center;
+	}
+	.titulo_contacto h1 {
+		font-size: 25px;
+	}
+	.titulo_contacto p {
+		font-size: 14px;
+	}
+	.info_contacto {
+		margin-top: 60px;
+		margin-left: 10px;
+		margin-bottom: 30px;
+		padding-left: 20px;
+		padding-right: 10px;
+	}
+	.info_contacto h3, .info_direccion_horario h3 {
+		font-size: 20px;
+	}
+	.info_contacto p, .info_direccion_horario p {
+		font-size: 13px;
+	}
+	.info_direccion_horario {
+		margin-top: 60px;
+		margin-left: 10px;
+		padding-left: 20px;
+		padding-right: 10px;
+	}
+
+	.ubicacion_pcu_mapa_google iframe {
+		width: 359px;
+		height: 300px;
+	}
+
+	/* CSS para home_page.html */
+
+	.mostrador_servicios {
+		margin-top: 60px;
+		width: 100%;
+	}
+
+	.content_home {
+		padding: 0px;
+	}
+	
+	.mostrador_servicios img {
+		width: 100%;
+		height: 350px;
+	}
+	.mensaje_imagen {
+		padding-bottom: 60px;
+		border-radius: 10px;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	.mensaje_imagen h3 {
+		font-size: 30px;
+	}
+	.mensaje_imagen a {
+		font-size: 17px;
+		text-decoration: none;
+		color: #0880BF;
+	}
+	.mensaje_imagen a:hover {
+		font-size: 17px;
+		text-decoration: none;
+		color: #054364;
+	}
+	.catalogo_industrias {
+		margin-bottom: 50px;
+	}
+	.titulo_catalogo_home {
+		text-align: center;
+		margin-top: 50px;
+		margin-left: 10px;
+	}
+	.titulo_catalogo_home h2 {
+		font-size: 25px;
+	}
+	.caja_industrias_1 {
+		width: 250px;
+		margin-top: 50px;
+		margin-left: 60px;
+	}
+	.caja_industrias_2 {
+		width: 250px;
+		margin-top: 1px;
+		margin-left: 60px;
+	}
+	.mini_caja_ind a {
+		text-decoration: none;
+		color: grey;
+	}
+	.mini_caja_ind a:hover {
+		text-decoration: none;
+		color: grey;
+	}
+	.mini_caja_ind {
+		display: block;
+		text-align: center;
+		padding: 5px;
+		border: solid grey 2px;
+		border-radius: 10px;
+		margin-top: 2px;
+		margin-left: 2px;
+		background-color: #EFEFEF;
+	}
+	.mini_caja_ind:hover {
+		background-color: #CFCFCF;
+	}
+	.quines_somos_home {
+		margin-top: 20px;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 30px;
+	}
+	.titulo_quienes_somos_home {
+		text-align: center;
+		margin-bottom: 50px;
+		margin-left: 20px;
+		width: 300px;
+	}
+	.titulo_quienes_somos_home h1 {
+		font-size: 25px;
+	}
+	.descripcion_quienes_somos_home {
+		padding: 0px;
+		margin-left: 10px;
+	}
+
+	.descripcion_quienes_somos_home img {
+		float: left;
+		border-radius: 10px;
+		width: 300px;
+		height: 200px;
+	}
+	.descripcion_quienes_somos_home p {
+		font-size: 14px;
+	}
+	.link_quienes_somos {
+		text-align: center;
+		margin-top: 30px;
+	}
+	.link_quienes_somos a {
+		text-decoration: none;
+		font-size: 14px;
+		color: #0880BF;
+	}
+	.link_quienes_somos a:hover {
+		text-decoration: none;
+		font-size: 14px;
+		color: #054364;
+	}
+
 
 
 
