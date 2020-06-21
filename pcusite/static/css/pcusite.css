@@ -396,8 +396,9 @@ img.logo_insta, img.logo_linkedin {
 	}
 
 	ul.nav {
-		margin-top: 10px;
-		height: 30px;
+		margin-top: 0px;
+		padding-top: 10px;
+		height: 40px;
 		background-color: #EAE6E6;
 	}
 
@@ -474,7 +475,8 @@ img.logo_insta, img.logo_linkedin {
 		padding-bottom: 5px;
 		padding-right: 7px;
 		padding-left: 7px;
-		margin-right: 10px;
+		margin-right: 5px;
+		margin-top: 20px;
 		border-radius: 40px;
 		color: #272525;
 	}
@@ -486,7 +488,8 @@ img.logo_insta, img.logo_linkedin {
 		padding-bottom: 5px;
 		padding-right: 7px;
 		padding-left: 7px;
-		margin-right: 10px;
+		margin-right: 5px;
+		margin-top: 20px;
 		border-radius: 40px;
 		color: #272525;
 	}
