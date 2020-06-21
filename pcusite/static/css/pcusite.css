@@ -372,3 +372,211 @@ img.logo_insta, img.logo_linkedin {
 	font-size: 17px;
 	color: #054364;
 }
+
+/* Responsive para la navbar PCU - celulares */ 
+
+@media screen and (max-width: 768px) {
+	body {
+		width: 359px;
+	}
+
+	.navbar {
+		height: 60px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background-color: #1F2727;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+	.navbar_dos {
+		height: 60px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background-color: #EAE6E6;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+	ul.nav {
+		margin-top: 10px;
+		height: 30px;
+		background-color: #EAE6E6;
+	}
+
+	.navbar-brand {
+		padding: 0px;
+		margin: 0px;
+	}
+	.navbar-brand img {
+		position: relative;
+		bottom: 20px;
+		left: 10px;
+		width: 150px;
+		height: 90px;
+	}
+
+	.navbar-brand-dos img {
+		position: relative;
+		bottom: 20px;
+		left: 10px;
+		width: 150px;
+		height: 90px;
+	}
+
+	.icon-bar {
+		background-color: white;
+	}
+
+	.icon-bar-dos {
+		background-color: black;
+	}
+
+
+	.links:hover {
+		text-decoration: none;
+		font-size: 13px;
+		color: white;
+		background-color: rgba(0, 0, 0, 0.25);
+	}
+
+	.links_dos:hover {
+		text-decoration: none;
+		font-size: 13px;
+		color: white;
+		background-color: rgba(0, 0, 0, 0.25);
+	}
+
+	.links:active, .links:focus, .links:visited {
+		text-decoration: none;
+	}
+
+	.links_dos:active, .links_dos:focus, .links_dos:visited {
+		text-decoration: none;
+	}
+
+	.links.active {
+		text-decoration: none;
+		border-radius: 0;
+		color: #272525;
+		border-bottom: solid #272525;
+	}
+
+	.links_dos.active {
+		text-decoration: none;
+		border-radius: 0;
+		color: #272525;
+		border-bottom: solid #272525;
+	}
+
+
+	.links {
+		text-decoration: none;
+		font-size: 13px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-right: 7px;
+		padding-left: 7px;
+		margin-right: 10px;
+		border-radius: 40px;
+		color: #272525;
+	}
+
+	.links_dos {
+		text-decoration: none;
+		font-size: 13px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-right: 7px;
+		padding-left: 7px;
+		margin-right: 10px;
+		border-radius: 40px;
+		color: #272525;
+	}
+
+	.submenu {
+		margin-right: 360px;
+	}
+
+	.content {
+		padding-left: 90px;
+		padding-right: 90px;
+	}
+
+
+	/* Responsive para servicios.html */
+
+
+	.encabezado_servicios {
+		text-align: center;
+		position: relative;
+		left: 5%;
+		width: 300px;
+		margin-top: 100px;
+	}
+	.content {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.encabezado_servicios p, .encabezado_catalog_acero p {
+		font-size: 13px;
+	}
+	.encabezado_servicios h1, .encabezado_catalog_acero h1 {
+		font-size: 25px;
+	}
+
+	.lista_servicios {
+		margin-top: 100px;
+		padding-left: 40px;
+		padding-right: 20px;
+		width: 320px;
+	}
+	.lista_servicios h3 {
+		font-size: 20px;
+	}
+	.lista_servicios p {
+		font-size: 13px;
+	}
+	.descrip_serv {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.img_serv img {
+		border-radius: 10px;
+		width: 200px;
+		height: 150px;
+	}
+	.servicios_fila_dos, .servicios_fila_tres, .servicios_fila_cuatro, .servicios_fila_cinco {
+		margin-top: 40px;
+	}
+	footer {
+		margin-bottom: 0px;
+	}
+	.pie_pagina {
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+		margin-top: 100px;
+	}
+	.derechos_resev {
+		float: right;
+		margin-top: 50px;
+		margin-right: 170px;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	.redes_sociales {
+		float: left;
+		margin-top: 75px;
+		margin-left: 100px;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	img.logo_insta, img.logo_linkedin {
+		margin-left: 30px;
+	}
+	.derechos_resev p {
+		font-size: 13px;
+	}
+
+
+
+
+}
