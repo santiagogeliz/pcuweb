@@ -368,10 +368,7 @@ img.logo_insta, img.logo_linkedin {
 /* Responsive para la navbar PCU - celulares */ 
 
 @media screen and (max-width: 768px) {
-	body {
-		width: 359px;
-	}
-
+	
 	.navbar {
 		height: 60px;
 		padding-top: 10px;
