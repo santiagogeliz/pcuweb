@@ -368,7 +368,7 @@ img.logo_insta, img.logo_linkedin {
 /* Responsive para la navbar PCU - celulares */ 
 
 @media screen and (max-width: 768px) {
-	
+
 	.navbar {
 		height: 60px;
 		padding-top: 10px;
@@ -397,18 +397,18 @@ img.logo_insta, img.logo_linkedin {
 	}
 	.navbar-brand img {
 		position: relative;
-		bottom: 20px;
+		bottom: 35px;
 		left: 10px;
-		width: 150px;
-		height: 90px;
+		width: 240px;
+		height: 120px;
 	}
 
 	.navbar-brand-dos img {
 		position: relative;
-		bottom: 20px;
+		bottom: 35px;
 		left: 10px;
-		width: 150px;
-		height: 90px;
+		width: 240px;
+		height: 120px;
 	}
 
 	.icon-bar {
@@ -460,8 +460,8 @@ img.logo_insta, img.logo_linkedin {
 	.links {
 		text-decoration: none;
 		font-size: 13px;
-		padding-top: 5px;
-		padding-bottom: 5px;
+		padding-top: 7px;
+		padding-bottom: 7px;
 		padding-right: 7px;
 		padding-left: 7px;
 		margin-right: 5px;
@@ -473,13 +473,13 @@ img.logo_insta, img.logo_linkedin {
 	.links_dos {
 		text-decoration: none;
 		font-size: 13px;
-		padding-top: 5px;
-		padding-bottom: 5px;
+		padding-top: 7px;
+		padding-bottom: 7px;
 		padding-right: 7px;
 		padding-left: 7px;
 		margin-right: 5px;
 		margin-top: 20px;
-		border-radius: 40px;
+		border-radius: 20px;
 		color: #272525;
 	}
 
@@ -666,7 +666,7 @@ img.logo_insta, img.logo_linkedin {
 	}
 
 	.ubicacion_pcu_mapa_google iframe {
-		width: 359px;
+		width: auto;
 		height: 300px;
 	}
 
