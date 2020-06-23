@@ -7,22 +7,20 @@ body {
 /* CSS para la navbar PCU */
 
 .navbar {
-	height: 100px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 30px;
+	padding-bottom: 20px;
 	background-color: #1F2727;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .navbar_dos {
-	height: 100px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 30px;
+	padding-bottom: 20px;
 	background-color: #EAE6E6;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 ul.nav {
-	margin-top: 30px;
+	margin-top: 10px;
 	padding-right: 120px;
 }
 
@@ -31,14 +29,14 @@ ul.nav {
 	margin: 0px;
 }
 .navbar-brand img {
-	position: relative;
-	bottom: 20px;
+	position: absolute;
 	left: 80px;
+	top: 0px;
 }
 
 .navbar-brand-dos img {
-	position: relative;
-	bottom: 20px;
+	position: absolute;
+	top: 0px;
 	left: 80px;
 }
 
@@ -171,15 +169,11 @@ footer {
 	float: right;
 	margin-top: 50px;
 	margin-right: 170px;
-	margin-bottom: 0px;
-	padding-bottom: 0px;
 }
 .redes_sociales {
 	float: left;
-	margin-top: 75px;
-	margin-left: 100px;
-	margin-bottom: 0px;
-	padding-bottom: 0px;
+	margin-top: 50px;
+	margin-left: 150px;
 }
 img.logo_insta, img.logo_linkedin {
 	margin-left: 30px;
@@ -367,36 +361,28 @@ img.logo_insta, img.logo_linkedin {
 
 /* Responsive para la navbar PCU - celulares */ 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 750px) {
 
 	.navbar {
-		height: 60px;
-		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-top: 40px;
+		padding-bottom: 20px;
 		background-color: #1F2727;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 	.navbar_dos {
-		height: 60px;
-		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-top: 40px;
+		padding-bottom: 20px;
 		background-color: #EAE6E6;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
 
 	ul.nav {
-		margin-top: 0px;
-		padding-top: 10px;
-		height: 40px;
-		background-color: #EAE6E6;
+		margin-top: 10px;
+		padding-right: 120px;
 	}
 
-	.navbar-brand {
-		padding: 0px;
-		margin: 0px;
-	}
 	.navbar-brand img {
-		position: relative;
+		position: absolute;
 		bottom: 35px;
 		left: 10px;
 		width: 240px;
@@ -404,7 +390,7 @@ img.logo_insta, img.logo_linkedin {
 	}
 
 	.navbar-brand-dos img {
-		position: relative;
+		position: absolute;
 		bottom: 35px;
 		left: 10px;
 		width: 240px;
@@ -419,18 +405,23 @@ img.logo_insta, img.logo_linkedin {
 		background-color: black;
 	}
 
+	.menu_toggle {
+		position: relative;
+		bottom: 10px;
+	}
+
 
 	.links:hover {
 		text-decoration: none;
 		font-size: 13px;
 		color: white;
-		background-color: rgba(0, 0, 0, 0.25);
+		background-color: rgba(255, 255, 255, 0.25);
 	}
 
 	.links_dos:hover {
 		text-decoration: none;
 		font-size: 13px;
-		color: white;
+		color: #E8E3E3;
 		background-color: rgba(0, 0, 0, 0.25);
 	}
 
@@ -445,8 +436,8 @@ img.logo_insta, img.logo_linkedin {
 	.links.active {
 		text-decoration: none;
 		border-radius: 0;
-		color: #272525;
-		border-bottom: solid #272525;
+		color: white;
+		border-bottom: solid white;
 	}
 
 	.links_dos.active {
@@ -462,12 +453,11 @@ img.logo_insta, img.logo_linkedin {
 		font-size: 13px;
 		padding-top: 7px;
 		padding-bottom: 7px;
-		padding-right: 7px;
-		padding-left: 7px;
-		margin-right: 5px;
-		margin-top: 20px;
+		padding-right: 5px;
+		padding-left: 5px;
+		margin-left: 5px;
 		border-radius: 40px;
-		color: #272525;
+		color: white;
 	}
 
 	.links_dos {
@@ -475,12 +465,16 @@ img.logo_insta, img.logo_linkedin {
 		font-size: 13px;
 		padding-top: 7px;
 		padding-bottom: 7px;
-		padding-right: 7px;
-		padding-left: 7px;
-		margin-right: 5px;
-		margin-top: 20px;
-		border-radius: 20px;
+		padding-right: 5px;
+		padding-left: 5px;
+		margin-left: 5px;
+		border-radius: 40px;
 		color: #272525;
+	}
+
+	.links_webpage {
+		width: 510px;
+		padding-top: 15px;
 	}
 
 	.submenu {
@@ -501,7 +495,7 @@ img.logo_insta, img.logo_linkedin {
 		position: relative;
 		left: 5%;
 		width: 300px;
-		margin-top: 100px;
+		margin-top: 150px;
 	}
 	.content {
 		padding-left: 10px;
@@ -546,21 +540,17 @@ img.logo_insta, img.logo_linkedin {
 		margin-bottom: 0px;
 		padding-bottom: 0px;
 		margin-top: 50px;
-		width: 400px;
+		width: 420px;
 	}
 	.derechos_resev {
 		float: right;
-		margin-top: 60px;
-		margin-right: 50px;
-		margin-bottom: 0px;
-		padding-bottom: 0px;
+		margin-top: 55px;
+		margin-right: 40px;
 	}
 	.redes_sociales {
 		float: left;
-		margin-top: 75px;
-		margin-left: 10px;
-		margin-bottom: 0px;
-		padding-bottom: 0px;
+		margin-top: 50px;
+		margin-left: 20px;
 	}
 
 	.redes_sociales img {
@@ -571,7 +561,7 @@ img.logo_insta, img.logo_linkedin {
 		margin-left: 10px;
 	}
 	.derechos_resev p {
-		font-size: 12px;
+		font-size: 13px;
 	}
 
 
@@ -584,7 +574,7 @@ img.logo_insta, img.logo_linkedin {
 		position: relative;
 		left: 5%;
 		width: 300px;
-		margin-top: 100px;
+		margin-top: 150px;
 	}
 
 	.encabezado_catalog_papel_carton {
@@ -592,7 +582,7 @@ img.logo_insta, img.logo_linkedin {
 		position: relative;
 		left: 5%;
 		width: 300px;
-		margin-top: 100px;
+		margin-top: 150px;
 	}
 
 	.encabezado_catalog_acero p, .encabezado_catalog_plastica p, .encabezado_catalog_papel_carton p, .encabezado_quienes_somos p {
@@ -634,7 +624,7 @@ img.logo_insta, img.logo_linkedin {
 	/* Responsive para contacto.html */
 
 	.titulo_contacto {
-		margin-top: 100px;
+		margin-top: 150px;
 		padding-left: 20px;
 		padding-right: 20px;
 		text-align: center;
@@ -666,14 +656,14 @@ img.logo_insta, img.logo_linkedin {
 	}
 
 	.ubicacion_pcu_mapa_google iframe {
-		width: auto;
+		width: 100%;
 		height: 300px;
 	}
 
 	/* CSS para home_page.html */
 
 	.mostrador_servicios {
-		margin-top: 60px;
+		margin-top: 100px;
 		width: 100%;
 	}
 
