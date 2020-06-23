@@ -540,12 +540,12 @@ img.logo_insta, img.logo_linkedin {
 		margin-bottom: 0px;
 		padding-bottom: 0px;
 		margin-top: 50px;
-		width: 420px;
+		width: 400px;
 	}
 	.derechos_resev {
 		float: right;
 		margin-top: 55px;
-		margin-right: 40px;
+		margin-right: 60px;
 	}
 	.redes_sociales {
 		float: left;
@@ -561,7 +561,7 @@ img.logo_insta, img.logo_linkedin {
 		margin-left: 10px;
 	}
 	.derechos_resev p {
-		font-size: 13px;
+		font-size: 11px;
 	}
 
 
