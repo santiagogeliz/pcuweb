@@ -185,18 +185,16 @@ img.logo_insta, img.logo_linkedin {
 
 .encabezado_catalog_acero, .encabezado_catalog_plastica, .encabezado_quienes_somos {
 	text-align: center;
-	position: relative;
-	left: 17%;
 	width: 800px;
 	margin-top: 160px;
+	margin-left: 200px;
 }
 
 .encabezado_catalog_papel_carton {
 	text-align: center;
-	position: relative;
-	left: 17%;
 	width: 800px;
 	margin-top: 160px;
+	margin-left: 200px;
 }
 
 .encabezado_catalog_acero p, .encabezado_catalog_plastica p, .encabezado_catalog_papel_carton p, .encabezado_quienes_somos p {
@@ -230,10 +228,8 @@ img.logo_insta, img.logo_linkedin {
 /* CSS para contacto.html */
 
 .titulo_contacto {
-	margin-top: 160px;
-	padding-left: 50px;
-	padding-right: 50px;
 	text-align: center;
+	margin-top: 160px;
 }
 .titulo_contacto h1 {
 	font-size: 45px;
@@ -262,7 +258,6 @@ img.logo_insta, img.logo_linkedin {
 
 .mostrador_servicios {
 	margin-top: 100px;
-	width: 100%;
 }
 .content_home {
 	padding: 0px;
@@ -488,16 +483,11 @@ img.logo_insta, img.logo_linkedin {
 
 	/* Responsive para servicios.html */
 
-	body {
-		width: 359px;
-	}
-
-
 	.encabezado_servicios {
 		text-align: center;
 		width: 300px;
 		margin-top: 150px;
-		margin-left: 20px;
+		margin-left: 30px;
 	}
 	.content {
 		padding-left: 10px;
@@ -573,18 +563,16 @@ img.logo_insta, img.logo_linkedin {
 
 	.encabezado_catalog_acero, .encabezado_catalog_plastica, .encabezado_quienes_somos {
 		text-align: center;
-		position: relative;
-		left: 5%;
 		width: 300px;
 		margin-top: 150px;
+		margin-left: 30px;
+
 	}
 
 	.encabezado_catalog_papel_carton {
 		text-align: center;
-		position: relative;
-		left: 5%;
 		width: 300px;
-		margin-top: 150px;
+		margin-top: 30px;
 	}
 
 	.encabezado_catalog_acero p, .encabezado_catalog_plastica p, .encabezado_catalog_papel_carton p, .encabezado_quienes_somos p {
@@ -666,7 +654,6 @@ img.logo_insta, img.logo_linkedin {
 
 	.mostrador_servicios {
 		margin-top: 100px;
-		width: 100%;
 	}
 
 	.content_home {
