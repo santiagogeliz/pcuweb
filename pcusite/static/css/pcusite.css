@@ -572,7 +572,8 @@ img.logo_insta, img.logo_linkedin {
 	.encabezado_catalog_papel_carton {
 		text-align: center;
 		width: 300px;
-		margin-top: 30px;
+		margin-top: 150px;
+		margin-left: 30px;
 	}
 
 	.encabezado_catalog_acero p, .encabezado_catalog_plastica p, .encabezado_catalog_papel_carton p, .encabezado_quienes_somos p {
